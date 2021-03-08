@@ -1,0 +1,17 @@
+body{
+    background-color:azure;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+    width: 600px;
+    font-weight: bold;
+}
+blockquote{
+    border:1px solid black;
+    text-align: center;
+
+}
+h1,p{
+    text-align: center;
+    font-weight: bold;
+}
+
