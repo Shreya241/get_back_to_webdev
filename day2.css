@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    color:black;
+}
+.wrap{
+    min-width: 600px;
+    width:80%;
+    margin: auto;
+    background-color: chocolate;
+    overflow: hidden;
+}
+aside,.content{
+    height: 600px;
+
+}
+aside{
+    background-color: burlywood;
+    width:20%;
+    float: left;
+    
+ 
+}
+.content{
+    background-color: cadetblue;
+    float: left;
+    width:80%;
+}
+aside ul{
+    list-style: none;
+    padding-left: 10px;
+}
+#navbar li{
+    display: inline;
+    padding-left:10px ;
+
+}
+#navbar ul a{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+#navbar ul a:hover{
+    text-decoration: underline;
+    color: cyan;
+    font-size: 30px;
+    
+}
