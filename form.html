@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/form.css"/>
+    </head>
+    <body>
+        <form id="name-form">
+         <ul>
+            <li><label for="name">Enter your name:</label>
+            <input id="name" name="name"/></li>
+       
+
+           <li><label for="comments">Your Comments:</label>
+            <textarea id="comments" name="comments"> </textarea></li>
+        
+            
+            <li><label for="sketching">Do you like ART?</label>
+            <input type="checkbox" name="sketching" id="sketching"></li>
+            <li>
+                <label for="art">What form of Art you like (only 3)?</label>
+                <input type="radio" id="art" name="art">Painting
+                <input type="radio" id="art" name="ar">Sketching
+                <input type="radio" id="art" name="a">Charcoal
+                <input type="radio" id="art" name="art">Canvas
+            </li>
+            <li id="butoon"><input type="submit" value="Submit"/></li>
+            </ul>
+        </form>
+        <p id="result"></p>
+        
+
+    </body>
+    <script src="js/submit.js"></script>
+</html>
